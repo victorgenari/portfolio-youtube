@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/icons/favicon.svg" type="image/x-icon">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&family=Poppins&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/e8ac874b2c.js" crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../../globalStyles/globalStyles.css">
+    <link rel="stylesheet" href="../../pages/Home/home.css">
+    <!-- Title -->
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="mobileNavigation">
+            <nav>
+                <ul>
+                    <li><a href="#home" onclick="handleCloseMobileNavigation()">INÍCIO</a></li>
+                    <li><a href="#aboutMe" onclick="handleCloseMobileNavigation()">SOBRE</a></li>
+                    <li><a href="#skills" onclick="handleCloseMobileNavigation()">HABILIDADES</a></li>
+                    <li><a href="#education" onclick="handleCloseMobileNavigation()">FORMAÇÃO</a></li>
+                    <li><a href="#history" onclick="handleCloseMobileNavigation()">HISTÓRICO</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <header>
+            <section class="menuList">
+                <div class="menuLogo">
+                    <img src="../../assets/images/portfLogo.svg" alt="Portfolio Logo">
+                    <span> &#60; Seu Nome &#62; </span>
+                </div>
+
+                <nav class="menuNavigation">
+                    <ul>
+                        <li><a href="#home">INÍCIO</a></li>
+                        <li><a href="#aboutMe">SOBRE</a></li>
+                        <li><a href="#skills">HABILIDADES</a></li>
+                        <li><a href="#education">FORMAÇÃO</a></li>
+                        <li><a href="#history">HISTÓRICO</a></li>
+                    </ul>
+                </nav>
+
+                <div class="mobileButton">
+                    <button type="button" onclick="handleOpenMobileNavigation()">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </div>
+            </section>
+
+            <section class="menuDescription" id="home">
+                <h1>PERFIL PESSOAL</h1>
+                <h2>Fullstack Developer</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim ex tenetur expedita doloribus ipsa eum
+                    eos, amet, vitae deserunt assumenda beatae? Quod impedit quaerat tempora maxime ducimus. Excepturi,
+                    possimus adipisci! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim ex tenetur
+                    expedita doloribus ipsa eum
+                    eos, amet, vitae deserunt assumenda beatae? Quod impedit quaerat tempora maxime ducimus. Excepturi,
+                    possimus adipisci! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim ex tenetur
+                    expedita doloribus ipsa eum
+                    eos, amet, vitae deserunt assumenda beatae? Quod impedit quaerat tempora maxime ducimus. Excepturi,
+                    possimus adipisci!</p>
+                <a href="https://www.linkedin.com/in/victorgenari/" target="_blank">MY PROFILE</a>
+            </section>
+        </header>
+
+        <div class="divider" id="aboutMe"></div>
+
+        <main>
+            <section class="aboutMe">
+                <img src="../../assets/images/profilePic.jpg" alt="Imagem Pessoal">
+                <div>
+                    <h2>Sobre Mim</h2>
+                    <p class="aboutFirstParagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum tenetur
+                        sit culpa ut qui similique,
+                        at rem corrupti maxime doloribus omnis sed! Ad voluptatum, ex quidem ducimus laudantium et
+                        veritatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum tenetur sit culpa ut qui
+                        similique,
+                        at rem corrupti maxime doloribus omnis sed! Ad voluptatum, ex quidem ducimus laudantium et
+                        veritatis.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam commodi odio at quas. Quam
+                        aliquam sit quisquam, a pariatur in sint cum vel! Magnam aliquam ea corporis? Quod, unde quia!
+                    </p>
+                    <a href="https://drive.google.com/file/d/1XKz7lytY2vUzp7ctSQxOSk8574l5lirJ/view?usp=sharing"
+                        target="_blank">Currículo</a>
+                </div>
+
+                <div class="aboutMeBall"></div>
+            </section>
+
+            <div class="divider" id="skills"></div>
+
+            <section class="skills">
+                <h2>Habilidades</h2>
+                <div class="skillsContent">
+                    <div>
+                        <div>
+                            <i class="fa-solid fa-check"></i> HTML
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-check"></i> CSS
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-check"></i> Javascript
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-check"></i> React.js - Learning
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-check"></i> Java - Learning
+                        </div>
+                    </div>
+
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-solid fa-file-code"></i>
+                    <i class="fa-solid fa-database"></i>
+                </div>
+            </section>
+
+            <div class="divider" id="education"></div>
+
+            <section class="academicEducation">
+                <h2>Formação Acadêmica</h2>
+                <div class="academicEducationContent">
+                    <div>
+                        <h3>Instituição de Ensino</h3>
+                        <span>Análise e Desenvolvimento de Sistemas</span>
+                        <span>Janeiro 2022 - Dezembro 2024</span>
+                    </div>
+                    <div>
+                        <h3>Instituição de Ensino</h3>
+                        <span>Análise e Desenvolvimento de Sistemas</span>
+                        <span>Janeiro 2022 - Dezembro 2024</span>
+                    </div>
+                    <div>
+                        <h3>Instituição de Ensino</h3>
+                        <span>Análise e Desenvolvimento de Sistemas</span>
+                        <span>Janeiro 2022 - Dezembro 2024</span>
+                    </div>
+                </div>
+                <i class="fa-solid fa-graduation-cap"></i>
+            </section>
+
+            <div class="divider" id="history"></div>
+
+            <section class="professionalHistory">
+                <h2>Histórico Profissional</h2>
+                <div class="professionalHistoryContent">
+                    <div>
+                        <h3>Frontend Developer</h3>
+                        <span>Empresa</span>
+                        <span>Abril 2022 - O momento - 7 meses</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia velit voluptas inventore
+                            rem recusandae quam perferendis at, cumque minima ad aspernatur, saepe unde, sunt eum!
+                            Veritatis nostrum molestias quidem velit!</p>
+                    </div>
+                    <div>
+                        <h3>Frontend Developer</h3>
+                        <span>Empresa</span>
+                        <span>Abril 2022 - O momento - 7 meses</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia velit voluptas inventore
+                            rem recusandae quam perferendis at, cumque minima ad aspernatur, saepe unde, sunt eum!
+                            Veritatis nostrum molestias quidem velit!</p>
+                    </div>
+                    <div>
+                        <h3>Frontend Developer</h3>
+                        <span>Empresa</span>
+                        <span>Abril 2022 - O momento - 7 meses</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia velit voluptas inventore
+                            rem recusandae quam perferendis at, cumque minima ad aspernatur, saepe unde, sunt eum!
+                            Veritatis nostrum molestias quidem velit!</p>
+                    </div>
+                </div>
+                <i class="fa-solid fa-clipboard-list"></i>
+            </section>
+
+            <div class="divider"></div>
+        </main>
+
+        <footer>
+            <div class="footerInfo">
+                <div>
+                    <h2>Localização</h2>
+
+                    <span><i class="fa-solid fa-location-dot"></i> Brasil</span>
+                    <span><i class="fa-solid fa-location-dot"></i> São Paulo - SP</span>
+                </div>
+
+                <div>
+                    <h2>Mídias Sociais</h2>
+
+                    <a href="https://www.linkedin.com/in/victorgenari/" target="_blank" class="footerLinkedin">
+                        <i class="fa-brands fa-linkedin-in"></i> LinkedIn
+                    </a>
+                    <a href="https://github.com/victorgenari" target="_blank" class="footerGithub">
+                        <i class="fa-brands fa-github"></i> Github
+                    </a>
+
+                    <span>Portfólio - 2022</span>
+                    <span>Seu Nome</span>
+                </div>
+            </div>
+
+            <div class="footerNavigation">
+                <a href="#home">INÍCIO</a>
+                <a href="#aboutMe">SOBRE</a>
+                <a href="#skills">HABILIDADES</a>
+                <a href="#education">FORMAÇÃO</a>
+                <a href="#history">HISTÓRICO</a>
+            </div>
+        </footer>
+
+        <a href="#home" class="backToTop">
+            <i class="fa-solid fa-circle-arrow-up"></i>
+        </a>
+
+    </div>
+
+
+    <!-- Scripts -->
+    <script src="../../scripts/scripts.js"></script>
+</body>
+
+</html>
