@@ -1,11 +1,11 @@
-# Portfolio criado para o Youtube
+# Portfólio criado para o Youtube
 
-- Projeto separado por sessões;
+- Projeto separado por sessões (Perfil Pessoal, Sobre, Habilidades, Formação Acadêmica & Histórico Profissional)
 - Aplicação totalmente responsiva;
 
 ## Tecnologias
 
-- Visual Studio Code (Códigos);
+- Visual Studio Code (Editor Código-Fonte);
 - HTML;
 - CSS;
 - Javascript;
